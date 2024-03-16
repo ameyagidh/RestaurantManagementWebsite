@@ -2,7 +2,7 @@
 This project is a full-stack website aimed at providing precise seat allocation and real-time food order tracking to facilitate faster queues in restaurants.
 
 ## Restaurant
-![aaa](https://github.com/ameyagidh/RestaurantManagementWebsite/assets/65457905/252f96b7-8601-409b-ae8e-514cd62256e8)
+![aaaa](https://github.com/ameyagidh/RestaurantManagementWebsite/assets/65457905/d352593c-e4e7-4250-8b2a-d6cc9fde448b)
 
 ### Features
 
