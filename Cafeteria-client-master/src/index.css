@@ -1,0 +1,308 @@
+#id{
+  height: 100%;
+}
+body {
+  margin-top: 0;
+  height: 100%;
+  background-image: url('./tables.png'); 
+  background-size: cover;
+  background-attachment: fixed; 
+}
+.homeRow {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.homeCol {
+  margin-top: 0%;
+  flex: 60%;
+  max-width: 100%
+}
+.orderCol {
+  margin-right: 2%;
+  margin-left: 1%;
+  flex: 40%;
+  overflow: overlay;
+}
+.menuTable{
+  width: 100%;
+  border-collapse:collapse
+}
+.heading{
+  font-weight: bold;
+}
+.main{
+  width: 100%;
+}
+.addMenu{
+  margin-left: 5%;
+  width: 45%;
+}
+.mainMenu{
+  width:100%;
+  margin-left: 2%;
+}
+
+td{
+  margin-left: 10%;
+}
+.look:nth-child(3) {
+  width:30%
+}
+.look:nth-child(1) {
+  width:30%
+}
+.menuInput{
+  display: block;
+  font-size:11px;
+  border:solid 1px #bdcdd6;
+  border-radius: 4%;
+  height: 100%;
+  padding: 5%;
+  font-size: large;
+}
+.payInput{
+  display: block;
+  font-size:11px;
+  border:solid 1px #bdcdd6;
+  border-radius: 4%;
+  padding: 1%;
+  font-size: large;
+}
+.rows {
+  margin-left: 3%;
+  height: 0%;
+  display: flex;
+}
+
+.col {
+  height: 100%;
+  /* float: left; */
+}
+.divi{
+  height: 100%;
+  margin-left: 5%;
+  background-color: rgb(41, 54, 54);
+  margin-right:5%;
+  margin-bottom: 1%;
+  color: white;
+  padding: 2px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150%;
+  height:100%;
+}
+
+.navList {
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; /* Add space between items */
+  width: 100%; /* Take complete width of the page header */
+}
+
+.navItem {
+  color: white;
+  font-size: 20px; /* Increase font size */
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding: 10px; /* Increase padding to make items bigger */
+}
+
+.navItem:hover {
+  color: rgb(148, 143, 143);
+}
+
+.table {
+  width: 100%; /* Take full width of the container */
+  margin: 0 auto; /* Center align the table */
+  border-collapse: collapse; /* Collapse borders */
+  border: 2px solid rgb(82, 74, 74);
+  
+}
+
+th, td {
+  padding: 8px; /* Add padding to table cells */
+  text-align: left; /* Left align text */
+  border-bottom: 1px solid #ddd; /* Add bottom border to rows */
+  border: 2px solid rgb(82, 74, 74);
+}
+
+tr:hover {
+  background-color: #f2f2f2; /* Change background color on hover */
+}
+
+  .unOccupiedBtn{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25%;
+    width: 28%;
+    height: 100%;
+    margin-right: 2%;
+    outline:none
+}
+.unOccupiedBtn:hover{
+    background-color: rgb(196, 207, 201);
+    border-radius: 25%;
+    width: 28%;
+    height: 100%;
+    margin-right: 2%;
+    cursor: pointer;
+}
+.cleanBtn{
+    background-color: rgb(32, 233, 14);
+    border-radius: 25%;
+    width: 28%;
+    height: 100%;
+    margin-right: 2%;
+    outline:none
+}
+.cleanBtn:hover{
+    background-color: rgb(35, 133, 59);
+    border-radius: 25%;
+    width: 28%;
+    height: 100%;
+    margin-right: 2%;
+    cursor: pointer;
+}
+.occupiedBtn{
+  background-color:  rgb(248, 6, 6);
+  border-radius: 25%;
+  width: 28%;
+  height: 100%;
+  margin-right: 2%;
+  outline:none
+}
+.occupiedBtn:hover{
+  background-color: rgb(124, 10, 10);
+  border-radius: 25%;
+  width: 28%;
+  height: 100%;
+  margin-right: 2%;
+  cursor: pointer;
+}
+.row {
+    display: flex;
+}
+.tableCol{
+    margin-bottom: 7%;
+    height: 30%;
+}
+.checkBtn{
+  background-color: rgb(174, 165, 224);
+  width: 35%;
+  height: 35%;
+}
+.checkRow {
+  margin-left: 15%;
+  display: flex;
+}
+
+.checkCol {
+  flex: 50%;
+  background-color: rgb(163, 172, 175); 
+  justify-content: center;
+  align-items: center;
+}
+
+.card-deck{
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 0%;
+  display: inline-flex;
+}
+.card-body {
+  text-align: center;
+	border-top: 1px solid #eeeeee;
+}
+
+.card-holder {
+	padding: 0;
+	cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+.m{
+  display: block;
+}
+.product-img-container {
+	width: 100%;
+	height: 260px;
+	display: inline-block;
+	position: relative;
+}
+
+.card-img-top {
+	max-width: 100%;
+	width: auto;
+	max-height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-radius: 0px;
+}
+
+.iconAdd:hover{
+  background-color: rgb(211, 197, 197);
+  cursor: pointer;
+}
+.iconRem:hover{
+  background-color: rgb(211, 197, 197);
+  cursor: pointer;
+}
+.iconAdd{
+  margin-right: 5%;
+  color: rgb(16, 223, 51);
+}
+.iconRem{
+  margin-left: 5%;
+  color: red;
+}
+.sale:nth-child(1){
+  width:10%
+}
+.outlined-basic{
+  display: block;
+  color: yellowgreen;
+}
+.MuiOutlinedInput-root {
+  width: 80%;
+}
+hr.new1 {
+  margin-top: 2%;
+  margin-left: 12%;
+  margin-right: 15%;
+  border-top: 1px solid rgb(214, 209, 209);
+}
+.right-col{
+  margin-left: 20%;
+}
+.pay-total{
+  margin-top: 2%;
+}
+.pay-header{
+  margin-bottom: 3%;
+}
+
+input[type=text] {
+  width: 100%;
+}
+.edit-icons{
+  margin-top: 35%;
+  margin-left: 10%;
+}
+.icon:hover{
+  background-color: rgb(207, 203, 197);
+  border-radius: 75%;
+}
+.my-heading {
+  color: rgba(241, 25, 9, 0.896);
+  background-color: lightgray; /* Change this to whatever background color you prefer */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
